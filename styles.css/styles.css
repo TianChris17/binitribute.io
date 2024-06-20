@@ -1,0 +1,201 @@
+:root{
+
+    font-size: 62.5%;
+}
+body{
+
+    width: 100%;
+    height: 150vh;
+
+    font-size: 1.6rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerSection{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    border: 2px solid rosybrown;
+
+    height: 130px;
+
+    margin-top: 3%;
+
+    background-color: rosybrown;
+
+    padding: 1rem 2rem 1rem;
+    
+}
+.headerSection header > h1{
+
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5.0rem;
+      
+    color: white;
+}
+
+.biniPic{
+
+    margin-top: 5%;
+
+    width: 100%;
+        height: 67vh;
+    }
+
+.biniPic > img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.description2{
+
+    text-align: center;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.6rem;
+
+    margin-top: 1%;
+}
+.description{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.8rem;
+
+}
+
+.container{
+
+    width: 100%;
+    height: 150vh;
+
+    border: 2px solid rosybrown;
+    background-color: rosybrown;
+
+    margin-top: 5%;
+
+}
+.container main > .timeline{
+
+    width: 50%;
+
+    height: 100vh;
+
+    margin-top: 5%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+.container main .timeline > h2{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.3rem;
+
+    margin-bottom: 5%;
+
+}
+
+.line{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+
+    margin-bottom: 2%;
+
+}
+
+.hrline{
+    margin-top: 5%;
+}
+.jline{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+
+    margin-top: 3%;
+}
+.footerContainer{
+
+    width: 100%;
+    height: 20vh;
+
+    background-color: rosybrown;
+}
+.footerContainer > footer{
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 3rem 4rem 3rem;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.facebook > img{
+
+    display: inline-block;
+}
+.facebook > p{
+
+    display: inline-block;
+}
+.instagram > img{
+
+    display: inline-block;
+}
+.instagram > p{
+
+    display: inline-block;
+}
+.youtube > img{
+
+    display: inline-block;
+}
+.youtube > p{
+
+    display: inline-block;
+}
+.tiktok > img{
+
+    display: inline-block;
+}
+.tiktok > p{
+
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+
+    color: white;
+}
